@@ -1,0 +1,14 @@
+void reverseArray(int* arr, int n);
+long long climbStairsIter(int n);
+long long climbStairsRecur(int n);
+void preorderTraversal(const int* tree, int n, int i);
+void inorderTraversal(const int* tree, int n, int i);
+void postorderTraversal(const int* tree, int n, int i);
+void buildTestTree(int* tree, int n);
+void initScores(int* scores, int n);
+void inputScores(int* scores, int n);
+double calcAverage(const int* scores, int n);
+int safeGet(const int* scores, int n, int index);
+void countGrades(const int* scores, int n, int* counts);
+void findMinMax(const int* scores, int n, int* max, int* min);
+void printResults(const int* scores, int n, double avg,  int* counts, int *max, int *min);
